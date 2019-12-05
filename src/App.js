@@ -9,9 +9,6 @@ function App() {
   useEffect(() => {
 
     if (users.length === 0) {
-      // fetch('https://randomuser.me/api/')
-      // .then(res => console.log(res))
-      // .catch(err => console.log(err));
       fetchUser();
 
       setUsers([
